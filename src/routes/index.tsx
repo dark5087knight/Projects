@@ -6,7 +6,6 @@ import { Projects } from "@/components/portfolio/Projects";
 import { Journey } from "@/components/portfolio/Journey";
 import { Contact } from "@/components/portfolio/Contact";
 import { BackToTop } from "@/components/portfolio/BackToTop";
-import { PageLoader } from "@/components/portfolio/PageLoader";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -30,7 +29,6 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <PageLoader />
       <Navbar />
       <main>
         <Hero />
