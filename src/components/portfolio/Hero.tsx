@@ -64,7 +64,7 @@ export function Hero() {
               <img
                 src={heroVisual}
                 alt="Cloud infrastructure illustration"
-                className="h-full w-full object-cover dark:invert dark:opacity-90 animate-float"
+                className="h-full w-full object-cover animate-float"
                 width={1024}
                 height={1024}
               />
