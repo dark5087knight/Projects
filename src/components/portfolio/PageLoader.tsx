@@ -4,7 +4,8 @@ export function PageLoader() {
   const [done, setDone] = useState(false);
 
   useEffect(() => {
-    const t = setTimeout(() => setDone(true), 700);
+    // Reduced from 700ms to allow faster entry
+    const t = setTimeout(() => setDone(true), 150);
     return () => clearTimeout(t);
   }, []);
 
